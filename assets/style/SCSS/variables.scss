@@ -1,0 +1,33 @@
+$color-black: #000;
+$color-primary: #23e0fc;
+$color-secondary: #ccc;
+$color-white: #fff;
+$color-danger: #ee0202;
+
+
+@font-face {
+  font-family: "IRANYekanRegularRd";
+  src: url("assets/style/fonts/IRANYekanRegularRd.ttf") format("ttf");
+}
+@font-face {
+  font-family: "IRANYekanRd";
+  src: url('~/assets/style/fonts/iranyekan.ttf');
+}
+
+@font-face {
+  font-family: "vazirEOT";
+  src: url('~/assets/style/fonts/vazir.ttf');
+}
+
+*{
+  direction: rtl;
+  font-family: "vazirEOT", serif;
+
+}
+
+@mixin fixedPosition {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
